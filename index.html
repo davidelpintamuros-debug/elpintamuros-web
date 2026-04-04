@@ -388,25 +388,31 @@
       .nav-links { gap: 1rem; }
       .hero {
         grid-template-columns: 1fr;
-        padding: 2.5rem 1.5rem;
+        padding: 2rem 1.2rem;
         min-height: auto;
         gap: 2rem;
         background: var(--white);
         overflow: hidden;
+        width: 100%;
+        box-sizing: border-box;
       }
-      .hero-text h1 { font-size: 2.2rem; }
-      .hero-text p { font-size: 0.95rem; max-width: 100%; }
+      .hero-text { width: 100%; box-sizing: border-box; overflow: hidden; }
+      .hero-text h1 { font-size: 1.9rem; word-break: break-word; }
+      .hero-text p { font-size: 0.92rem; max-width: 100%; word-break: break-word; }
       .hero-badges { gap: 0.4rem; }
       .badge { font-size: 0.75rem; padding: 0.3rem 0.8rem; }
+      .cta { font-size: 0.9rem; padding: 0.9rem 1.5rem; }
       .hero-visual {
         min-height: auto;
-        padding: 2rem 1.5rem;
+        padding: 1.5rem 1.2rem;
         border-radius: 12px;
+        width: 100%;
+        box-sizing: border-box;
       }
-      .stat-row { gap: 0.8rem; }
-      .stat { padding: 1rem 1.2rem; min-width: 80px; }
-      .stat-number { font-size: 1.5rem; }
-      .logo-big { width: 80px; height: 80px; }
+      .stat-row { gap: 0.6rem; width: 100%; justify-content: center; }
+      .stat { padding: 0.8rem 1rem; min-width: 0; flex: 1; }
+      .stat-number { font-size: 1.4rem; }
+      .logo-big { width: 72px; height: 72px; }
       .pillars { padding: 3rem 1.5rem; }
       .pillars-grid { grid-template-columns: 1fr; gap: 1.5rem; }
       .services { padding: 3rem 1.5rem; }
@@ -592,16 +598,11 @@
     <li>Limitación y oposición al tratamiento</li>
     <li>Portabilidad de datos</li>
   </ul>
-  <p>Para ejercer estos derechos: david.elpintamuros@gmail.com</p>
+  <p>Para ejercer estos derechos: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="791d180f101d571c150910170d18140c0b160a391e14181015571a1614">[email&#160;protected]</a></p>
 
   <h3>9. Reclamaciones</h3>
   <p>Puedes presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).</p>
 </section>
 
 <footer>
-  <span>© 2025 El PintaMuros · Barcelona</span>
-  <span><a href="#privacidad">Política de Privacidad</a> · david.elpintamuros@gmail.com</span>
-</footer>
-
-</body>
-</html>
+  <span>© 2025 El PintaMuros · Barcelona
